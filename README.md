@@ -53,6 +53,8 @@ mensaje db "Hola Mundo", 0
 
 Como te pudiste dar cuenta la simplicidad es bastante de MAWA VS Assembler (Alias Ensamblador)
 
+La razón por la que no he publicado MAWA aquí es por mi privacidad ya que no expondre TODO o gran parte de MAWA hasta que este no alcance un tope de viralización alto, gracias.
+
 Bueno aquí les mostre una pizquita de todo MAWA si quieren ver más en un futuro públicare mi documentación del lenguaje en un futuro para ue vean todos los comandos.
 
 Samuel Leomardo Páez Garzón - 2026/2027
