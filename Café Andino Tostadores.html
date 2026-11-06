@@ -1,0 +1,109 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Café Andino Tostadores</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Work+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: una sola columna de lectura rápida (2 min): portada, historia, productos, contacto */
+:root {
+  --bg: #f6f1ea;
+  --fg: #2a1d16;
+  --muted: #6b5a4e;
+  --accent: #b5471f;
+  --accent-ink: #ffffff;
+  --panel: #ebe2d6;
+  --line: #d6c8b8;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Work Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1d1511; --fg: #f1e7db; --muted: #bfae9f; --accent: #e07a4a;
+    --accent-ink: #1d1511; --panel: #2a1f19; --line: #43332a; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1d1511; --fg: #f1e7db; --muted: #bfae9f; --accent: #e07a4a;
+  --accent-ink: #1d1511; --panel: #2a1f19; --line: #43332a; color-scheme: dark;
+}
+body {
+  background: var(--bg); color: var(--fg); font-family: var(--font-body);
+  font-size: 16px; line-height: 1.6;
+  padding-block: 32px 48px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+main { max-width: 640px; margin: 0 auto; display: grid; gap: 40px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; line-height: 1.12; margin: 0; }
+h1 { font-size: clamp(2.2rem, 8vw, 3.4rem); font-weight: 800; }
+h2 { font-size: 1.6rem; font-weight: 600; }
+h3 { font-size: 1.15rem; font-weight: 600; }
+p { margin: 0; max-width: 65ch; }
+.eyebrow { font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+.hero { display: grid; gap: 16px; }
+.logo { width: 88px; height: 88px; display: block; }
+.hero p { font-size: 1.1rem; color: var(--muted); }
+.stats { display: flex; flex-wrap: wrap; gap: 12px 28px; padding-top: 8px; }
+.stats div { min-width: 0; }
+.stats b { display: block; font-family: var(--font-display); font-size: 1.5rem; }
+.stats span { font-size: .85rem; color: var(--muted); }
+section { display: grid; gap: 16px; }
+.products { display: grid; gap: 0; border-top: 1px solid var(--line); }
+.item { display: grid; grid-template-columns: 1fr auto; gap: 4px 16px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.item p { grid-column: 1; color: var(--muted); font-size: .95rem; }
+.price { font-family: var(--font-display); font-weight: 600; font-size: 1.1rem; font-variant-numeric: tabular-nums; white-space: nowrap; grid-row: 1; grid-column: 2; }
+.box { background: var(--panel); padding: 20px; display: grid; gap: 8px; border-radius: 6px; }
+.box dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 6px 16px; }
+.box dt { color: var(--muted); font-size: .9rem; }
+.box dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+a { color: var(--accent); }
+a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+footer { font-size: .8rem; color: var(--muted); }
+</style>
+
+<main>
+  <header class="hero">
+    <svg class="logo" viewBox="0 0 120 120" role="img" aria-label="Logo de Café Andino Tostadores"><defs><clipPath id="lc"><circle cx="60" cy="60" r="56"/></clipPath></defs><circle cx="60" cy="60" r="56" fill="#b5471f"/><g clip-path="url(#lc)"><g transform="rotate(25 60 40)"><ellipse cx="60" cy="40" rx="16" ry="23" fill="#f6f1ea"/><path d="M60 17 C52 31 68 49 60 63" fill="none" stroke="#b5471f" stroke-width="3.5" stroke-linecap="round"/></g><path d="M0 96 L34 62 L48 76 L72 50 L120 98 L120 120 L0 120 Z" fill="#5a1f0a"/></g><circle cx="60" cy="60" r="56" fill="none" stroke="#f6f1ea" stroke-width="3"/></svg>
+    <span class="eyebrow">Café de origen · Bogotá, Colombia</span>
+    <h1>Café Andino Tostadores</h1>
+    <p>Tostamos café de pequeños productores de Huila y Nariño en lotes pequeños y lo entregamos en la semana en que se tuesta.</p>
+    <div class="stats">
+      <div><b>2023</b><span>Año en que empezamos</span></div>
+      <div><b>12</b><span>Familias cafeteras aliadas</span></div>
+      <div><b>48 h</b><span>Del tostado a tu puerta</span></div>
+    </div>
+  </header>
+
+  <section aria-labelledby="historia">
+    <h2 id="historia">Quiénes somos</h2>
+    <p>Somos un emprendimiento familiar. Compramos el café directamente a las fincas, pagamos un precio justo y lo tostamos en Bogotá. Cada bolsa trae la fecha de tueste, la finca de origen y las notas de sabor.</p>
+  </section>
+
+  <section aria-labelledby="productos">
+    <h2 id="productos">Nuestros productos</h2>
+    <div class="products">
+      <div class="item"><h3>Café Huila, 250 g</h3><span class="price">$28.000</span><p>Grano o molido. Notas a panela y cacao. Tueste medio.</p></div>
+      <div class="item"><h3>Café Nariño, 250 g</h3><span class="price">$32.000</span><p>Acidez cítrica y cuerpo suave. Tueste medio-claro.</p></div>
+      <div class="item"><h3>Café Descafeinado, 250 g</h3><span class="price">$30.000</span><p>Proceso con agua. Sabor a caramelo, sin amargor.</p></div>
+      <div class="item"><h3>Kit de regalo</h3><span class="price">$65.000</span><p>Dos bolsas de 250 g, una taza de cerámica y una tarjeta personalizada.</p></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="pedidos">
+    <h2 id="pedidos">Cómo pedir</h2>
+    <p>Escríbenos por WhatsApp con el producto y la cantidad. Hacemos envíos en Bogotá el mismo día y a todo el país con transportadora.</p>
+    <div class="box">
+      <dl>
+        <dt>WhatsApp</dt><dd>300 000 0000</dd>
+        <dt>Instagram</dt><dd>@cafeandino.ejemplo</dd>
+        <dt>Correo</dt><dd>hola@cafeandino.ejemplo</dd>
+        <dt>Horario</dt><dd>Lunes a sábado, 8:00 a. m. a 6:00 p. m.</dd>
+      </dl>
+    </div>
+  </section>
+
+  <footer>Página de ejemplo para el formato de factura. Los datos de contacto son ficticios.</footer>
+</main>
+
+</body></html>
